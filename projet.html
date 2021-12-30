@@ -1,0 +1,86 @@
+
+<link rel="stylesheet" href="news.css">
+
+                                             <H1>QUESTION POUR UN CHAMPION</H1>
+ <SCRIPT LANGUAGE="JavaScript">
+ function test(cases) {
+  var rep=true;
+  for (i=0; i< cases.length; i++) { 
+   if (cases[i].value==1 && cases[i].checked==false) rep=false;
+   if (cases[i].value==0 && cases[i].checked==true) rep=false;
+  }
+  return rep;
+ }
+
+ </SCRIPT>
+</FORM>
+<body>
+
+ <SCRIPT LANGUAGE="JavaScript">
+ function test(cases) {
+  var rep=true;
+  for (i=0; i< cases.length; i++) { 
+   if (cases[i].value==1 && cases[i].checked==false) rep=false;
+   if (cases[i].value==0 && cases[i].checked==true) rep=false;
+  }
+  return rep;
+ }
+
+ </SCRIPT>
+ <div class="question-block">
+<HR>
+<FORM NAME="qcm2">
+<B>Question 1 :</B><BR>
+<h2> Quel sont les 2 outils d'automatisation ?</h2>
+<B>Réponses :</B>
+</div>
+<div>
+<INPUT TYPE="checkbox" NAME="choix" VALUE="1">
+
+    CYPRESS</INPUT>
+
+<INPUT TYPE="checkbox" NAME="choix" VALUE="0">
+
+    JIRA</INPUT>
+
+<INPUT TYPE="checkbox" NAME="choix" VALUE="1">
+
+    SELENIUM</INPUT>
+
+<INPUT TYPE="checkbox" NAME="choix" VALUE="0">
+
+    LINUX</INPUT>
+    </div>
+    <BR><BR>
+        <div class="question-block">
+        <B></B>Question 2 :</B><BR>
+           <H2> Quel est mon prénom ?</H2><BR>
+            <B>Réponses :</B>  
+            </div>
+    <div>
+<INPUT TYPE="radio" NAME="choix" VALUE="0">
+        Antoine</INPUT>
+<INPUT TYPE="radio" NAME="choix" VALUE="0">
+        André</INPUT>
+<INPUT TYPE="radio" NAME="choix" VALUE="1">
+            Adebola</INPUT>
+            </div>
+<BR><BR>
+    </div>
+    <div>
+<INPUT TYPE="button" NAME="bouton" VALUE="Vérifier"
+ ONCLICK="if (test(document.qcm2.choix)) alert('\ud83d\ude09 SUPER 🎉 !! ADEBOLA, CYPRESS et SELENIUM sont les bonnes réponses.');
+          else alert('\ud83d\ude13 👎 Non la Réponse est fausse.');">
+          <button id="refresh" class= "favorite styled"onclick="document.location.reload(false)"> Rafraichir </button></div>
+          
+         </INPUT>
+
+</FORM>
+
+
+
+			
+		
+	
+		
+
